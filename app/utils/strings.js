@@ -4,7 +4,7 @@ angular.module('utils.strings', [])
 
 .filter('toXMR', function() {
   return function(amount) {
-    return amount / 1000000000000;
+    return amount / 1000000000;
   };
 })
 
@@ -23,7 +23,7 @@ angular.module('utils.strings', [])
 
 .filter('hashToLink', function($sce) {
   return function(hash, type) {
-    var str = (hash == undefined) ? 'none' : "<a class=\"md-body-2\" target=\"_new\" href=\"https://chainradar.com/aeon/"+type+"/" + hash + "\">" + hash + "</a>";
+    var str = (hash == undefined) ? 'none' : "<a class=\"md-body-2\" target=\"_new\" href=\"https://explorer.galluscoin.com/"+type+"/" + hash + "\">" + hash + "</a>";
     return $sce.trustAsHtml(str); 
   };
 })

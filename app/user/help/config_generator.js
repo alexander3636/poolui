@@ -17,8 +17,8 @@ app.controller('ConfigGeneratorCtrl', function($scope) {
 	$scope.example_attr = {
 		'with_mail': false,
 		'with_worker_id': false,
-    'with_pool_address' : 'pool.aeon.semipool.com',
-    'with_custom_wallet': 'Wms9NLr7UqrShuU4eK9bWgUSWgUjdYehsgv5hkBSZLUNcPUwBia118ATNNMKpKN9PbWwiZDMv7vu7JAASS9VWfiy1LaXt3Xoa',
+    'with_pool_address' : 'pool.galluscoin.com',
+    'with_custom_wallet': 'gac1VpgRsqa1eEsGnFF6x77XnhdPckN4tj7tRuSBVKvTi46vfERKZ7VXCE5ptc7VuViFBSzcwDVVaYj83VmGuMZD6wQMq9mURi',
     'with_custom_worker': 'MyWorker',
     'with_custom_email': 'me@email.com',
     'with_custom_port': '5555',    
